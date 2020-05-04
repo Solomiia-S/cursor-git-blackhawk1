@@ -1,4 +1,89 @@
-
+<!DOCTYPE html>
 <html lang="en">
-Hello
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HW 2: HTML</title>
+</head>
+<body>
+    <h1>Homework 2</h1>
+
+<table cellspacing="10" cellpadding="10" frame="border" rules="rows">
+    <tr>
+        <th>First Name</th>
+        <th>Second Name</th>
+        <th>Phone</th>
+        <th>Email</th>
+    </tr>
+    <tr>
+        <td>Natali</td>
+        <td>Brawn</td>
+        <td>123456789</td>
+        <td>Natali09@gmail.com</td>
+    </tr>
+    <tr>
+        <td>Solomiia</td>
+        <td>Strotska</td>
+        <td>9678166779</td>
+        <td>Solomiia0@gmail.com</td>
+    </tr>
+    <tr>
+        <td>Sonia</td>
+        <td>Milko</td>
+        <td>0234166779</td>
+        <td>SoniaM@gmail.com</td>
+    </tr>
+    <tr>
+        <td>Serik</td>
+        <td>Fark</td>
+        <td>0234166779</td>
+        <td>Serik@gmail.com</td>
+    </tr>
+   </table>
+<br/>
+
+<form>
+    <div>
+        <p>
+            First name:
+            <input type="text" required placeholder="Enter the name">
+        </p>
+        <p>
+            Last name:
+            <input type="text" required placeholder="Enter the last name">
+        </p>
+    </div>
+    <p>Enter your gender?</p>
+    <label>
+        <input type="radio" value="male" name="male" checked>Male
+        <input type="radio" value="female" name="male" checked>Female
+    </label>
+    <p>
+        <textarea placeholder="Enter the question"></textarea>
+    </p>
+    <select>
+        <option value="start" selected disabled>Choose the city</option>
+        <option value="Lviv">Lviv</option>
+        <option value="Kyiv">Kyiv</option>
+        <option value="Odessa">Odessa</option>
+        <option value="Kharkiv">Kharkiv</option>
+    </select>
+    <p>Choose a language:</p>
+    <p>
+        <input type="checkbox" id="uk">
+        <label for="uk">Ukraine</label>
+    </p>
+    <p>
+        <input type="checkbox" id="ru">
+        <label for="ru">Italian</label>
+    </p>
+    <p>
+        <input type="checkbox" id="en">
+        <label for="en">English</label>
+    </p>
+    <input type="submit" value="Send">
+    <input type="reset" value="Reset">
+</form>
+</body>
 </html>
